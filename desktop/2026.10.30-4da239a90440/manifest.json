@@ -1,0 +1,84 @@
+{
+  "schema": "terebyte/build-manifest/v1",
+  "product": "Terebyte desktop app",
+  "version": "2026.10.30",
+  "commit": "4da239a90440dfb7db230e02b124c8ea5ed1d19b",
+  "build": "https://github.com/terebytehq/terebyte/actions/runs/40884011997",
+  "madeAt": "2026-10-29T14:25:39.864Z",
+  "files": [
+    {
+      "platform": "Linux",
+      "name": "Terebyte_2026.10.30_amd64.AppImage",
+      "size": 102021624,
+      "sha256": "8a7a9a482330da21489f4296ba45a28b3b43dda9ac0454fb386f7cd370b42447"
+    },
+    {
+      "platform": "Linux",
+      "name": "Terebyte_2026.10.30_amd64.AppImage.sig",
+      "size": 452,
+      "sha256": "6aa4d549cf88fe8367aea01941a230c301a5a0ad4bf98e54da228228873a7650"
+    },
+    {
+      "platform": "Linux",
+      "name": "Terebyte_2026.10.30_amd64.deb",
+      "size": 26126990,
+      "sha256": "4c92557672a548a0f88b80c0bffdf43f5671f9e4d7ded5c09bcf59a71d0d1265"
+    },
+    {
+      "platform": "Windows",
+      "name": "Terebyte_2026.10.30_x64-setup.exe",
+      "size": 16360258,
+      "sha256": "c79976117997960ab1ee909515244a599f0e40e21054be0fadacc5c68e54fc2e"
+    },
+    {
+      "platform": "Windows",
+      "name": "Terebyte_2026.10.30_x64-setup.exe.sig",
+      "size": 452,
+      "sha256": "edbd9ca3740387a55c2690e4c7aeee702d5f234bd4f4ac4eaa3051b52f83df6f"
+    },
+    {
+      "platform": "macOS",
+      "name": "Terebyte_2026.10.30_universal.dmg",
+      "size": 42938457,
+      "sha256": "2a7d09145a939e1f74b079444539e44bb888581646a1aa7b204e83f77cd65ad4"
+    },
+    {
+      "platform": "macOS",
+      "name": "Terebyte.app.tar.gz",
+      "size": 44281438,
+      "sha256": "e8226089d171a1b806b20d4a9e872267ea63f520aff44672b2781f27373f2400"
+    },
+    {
+      "platform": "macOS",
+      "name": "Terebyte.app.tar.gz.sig",
+      "size": 432,
+      "sha256": "55ac2c44d4f3c2a097b2e4e173e0247cdd49701de8f549d152153a702447457f"
+    }
+  ],
+  "programs": [
+    {
+      "platform": "Linux",
+      "package": "Terebyte_2026.10.30_amd64.deb",
+      "program": "/usr/bin/terebyte-desktop",
+      "sha256": "02d64499cbca0c858c1ccaad509cd9f89cd08034ef751b325cfa3bef7c9e94af"
+    },
+    {
+      "platform": "Linux",
+      "package": "Terebyte_2026.10.30_amd64.AppImage",
+      "program": "usr/bin/terebyte-desktop (inside)",
+      "sha256": "49860314ee8301f3cc7e76bbac86dfcd0762349850984930df66196b807b1919"
+    },
+    {
+      "platform": "Windows",
+      "package": "Terebyte_2026.10.30_x64-setup.exe",
+      "program": "terebyte-desktop.exe",
+      "sha256": "2e9dea9d0680b9c5debf205cef317354464267ae1a12404519bd4d80738d3fef"
+    },
+    {
+      "platform": "macOS",
+      "package": "Terebyte_2026.10.30_universal.dmg",
+      "program": "Terebyte.app/Contents/MacOS/terebyte-desktop",
+      "sha256": "963b4f44ff8f81325a3096626bddb7d6199892e54d45215f429eb119d187e33e"
+    }
+  ]
+}
