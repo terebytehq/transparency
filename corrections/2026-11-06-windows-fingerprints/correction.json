@@ -1,0 +1,37 @@
+{
+  "schema": "terebyte/correction/v1",
+  "date": "2026-11-06",
+  "cause": "The build's hash step ran on the unsigned restored file: the original the installer tool puts back after packing the marked program, not the program in the installer.",
+  "corrections": [
+    {
+      "manifest": "desktop/2026.10.30-651aadf412c0/manifest.json",
+      "platform": "Windows",
+      "package": "Terebyte_2026.10.30_x64-setup.exe",
+      "program": "terebyte-desktop.exe",
+      "wrongSha256": "efc106012788ffffd09a3d4c9533f72e44bc03059552879d3fea5e6901f8d4c8",
+      "rightSha256": "f3f6ff02259d5b8e15cb480db6f2db085a40f547e52f0f81f416e27344899fcf",
+      "buildRun": 39777501538,
+      "installCheckRun": 42179626913
+    },
+    {
+      "manifest": "desktop/2026.10.30-4da239a90440/manifest.json",
+      "platform": "Windows",
+      "package": "Terebyte_2026.10.30_x64-setup.exe",
+      "program": "terebyte-desktop.exe",
+      "wrongSha256": "2e9dea9d0680b9c5debf205cef317354464267ae1a12404519bd4d80738d3fef",
+      "rightSha256": "759548688082958294b00e3ec9fe259c5bac79ee65a6f26ccc8af5569d81d5d9",
+      "buildRun": 40884011997,
+      "installCheckRun": 42179758641
+    },
+    {
+      "manifest": "desktop/2026.10.30-96aebbaee7b1/manifest.json",
+      "platform": "Windows",
+      "package": "Terebyte_2026.10.30_x64-setup.exe",
+      "program": "terebyte-desktop.exe",
+      "wrongSha256": "99a93c075fb7bb88adf51b5426b2ded363318ba5d709d32afff52a5ba25e0de8",
+      "rightSha256": "51ad51b02a17ad59e6a9eb97bc0f839fd1beccb4b32e318fd0ed325017250dea",
+      "buildRun": 42049775306,
+      "installCheckRun": 42179869894
+    }
+  ]
+}
